@@ -1,0 +1,10 @@
+FROM golang:1.16.0-alpine
+
+RUN mkdir /go/src/sansara
+
+WORKDIR /go/src/sansara
+
+RUN apk update && \
+    apk add --no-cache git openssh sudo
+
+COPY . /go/src/sansara

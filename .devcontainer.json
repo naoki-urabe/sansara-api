@@ -1,0 +1,9 @@
+{
+    "name": "api",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "api",
+    "workspaceFolder": "/go/src/sansara",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/sh"
+    },
+}
