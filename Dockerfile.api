@@ -5,6 +5,6 @@ RUN mkdir /go/src/sansara
 WORKDIR /go/src/sansara
 
 RUN apk update && \
-    apk add --no-cache git openssh sudo
+    apk add --no-cache git
 
 COPY . /go/src/sansara

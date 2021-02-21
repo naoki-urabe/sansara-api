@@ -6,8 +6,6 @@ services:
       dockerfile: Dockerfile.api
     volumes:
       - .:/go/src/sansara
-      - /etc/passwd:/etc/passwd:ro
-      - /etc/group:/etc/group:ro
     tty: true
     ports:
       - "8080:8080"
